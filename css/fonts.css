@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "postnobillsjaffna";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/postnobillsjaffna-bold-webfont.woff") format("woff"), 
+    url("../fonts/postnobillsjaffna-bold-webfont.woff2") format("woff2");
+}
