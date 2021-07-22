@@ -5,6 +5,8 @@
 --second-black-color: #0F0F0F;
 --font-jaffna: 'postnobillsjaffna', sans-serif;
 --hover-focus-black-color: #1F1F1F;
+--font-playfair-display: 'Playfair Display', sans-serif;
+--third-black-color: #191B1C;
 }
 * {
     margin: 0;
@@ -185,4 +187,46 @@ body{
     text-transform: uppercase;
     color: var(--white-color);
     padding-top: 80px;
+}
+
+/* CATALOG */
+
+.catalog{
+    background-color: var(--black-color);
+    width: 1040px;
+    height: 730px;
+}
+.catalog-title{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-playfair-display);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding-top: 93px;
+    padding-bottom: 50px;
+}
+.catalog-line{
+    width: 120px;
+    margin: auto;
+}
+.catalog-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.catalog-item::before{
+    content: '';
+    width: 260px;
+    height: 325px;
+    background: var(--third-black-color) url(../images/clock1.png);
+    display: inline-block;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.catalog-item:last-child::before{
+    margin-right: 0;
 }
