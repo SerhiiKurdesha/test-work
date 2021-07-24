@@ -8,6 +8,7 @@
 --font-playfair-display: 'Playfair Display', sans-serif;
 --third-black-color: #191B1C;
 --second-white-color: #D0D0D0;
+--basic-font: 'PT Sans', sans-serif;
 }
 * {
     margin: 0;
@@ -198,14 +199,14 @@ body{
 }
 .catalog-fon{
     background: var(--black-color);
-    width: 100%;
+    width: 1040px;
     height: 730px;
 }
 .catalog-title{
     font-family: var(--font-playfair-display);
     font-weight: bold;
     font-size: 36px;
-    line-height: 48px;
+    line-height: 1.3em;
     text-align: center;
     text-transform: uppercase;
     color: var(--white-color);
@@ -239,8 +240,8 @@ body{
     height: 325px;
     background-color: var(--third-black-color);  
 }
-.catalog-link:hover,
-.catalog-link:focus{}
+/* .catalog-link:hover,
+.catalog-link:focus{} */
 .catalog-name{
     font-family: var(--font-playfair-display);
     font-size: 18px;
@@ -255,4 +256,50 @@ body{
     line-height: 21px;
     color: var(--second-white-color);
     margin-top: 10px;
+}
+.catalog-title-img{
+    font-family: var(--font-playfair-display);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding-top: 484px;
+}
+.catalog-title-img.pseudo::after{
+    content: '';
+    display: flex;
+    width: 120px;
+    border: 1px solid var(--white-color);
+    margin: auto;
+    margin-top: 30px;
+}
+.catalog-img{
+    background-image: url(../images/img-1.jpg);
+    width: 880px;
+}
+.catalog-button{
+    font-family: var(--basic-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    cursor: pointer;
+    padding: 11px 27px;
+    border: 1px solid var(--white-color);
+    background-color: transparent;
+
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+.catalog-button:hover,
+.catalog-button:focus{
+    background-color: var(--hover-focus-black-color);
+    border: var(--hover-focus-black-color);
 }
