@@ -1,7 +1,7 @@
 :root {
 --grey-color: #969696;
 --white-color: #ffffff;
---black-color: #000000;
+--black-color: rgba(0, 0, 0, 1);
 --second-black-color: #0F0F0F;
 --font-jaffna: 'postnobillsjaffna', sans-serif;
 --hover-focus-black-color: #1F1F1F;
@@ -359,4 +359,69 @@ body{
     margin: auto;
     margin-top: 73px;
     display: flex;
+}
+
+/* PRODUCT */
+
+.product{
+    background: var(--black-color);
+}
+.product-title{
+    font-family: var(--font-playfair-display);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding-top: 120px;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-item{
+    margin-right: 23px;
+    display: block;
+    /* margin-bottom: 120px; */
+}
+.product-item:nth-child(4n){
+    margin-right: 0;
+}
+.product-link{
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid transparent; */
+    width: 260px;
+    height: 325px;
+    background-color: var(--third-black-color);
+}
+.product-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px soloid transparent;
+    width: 260px;
+    height: 325px;
+    background-color: var(--third-black-color);
+}
+.product-card{
+    padding-top: 25px;
+}
+.product-name{
+    font-family: var(--font-playfair-display);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+.product-price{
+    font-family: var(--font-playfair-display);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--second-white-color);
+    margin-top: 10px;
 }
