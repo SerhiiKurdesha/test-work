@@ -377,11 +377,15 @@ body{
     color: var(--white-color);
     padding-top: 120px;
 }
+.product-title.pseudo::after{
+    margin-top: 40px;
+}
 .product-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 150px;
+    margin-top: 81px;
 }
 .product-item{
     margin-right: 23px;
@@ -438,6 +442,10 @@ body{
     padding: 0 15px 0 15px;
     box-sizing: border-box;
     text-align: center;
+
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--second-black-color);
 }
 .product-card{
     padding-top: 25px;
