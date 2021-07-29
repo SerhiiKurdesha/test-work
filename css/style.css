@@ -465,3 +465,34 @@ body{
     color: var(--second-white-color);
     margin-top: 10px;
 }
+
+/* BRAND */
+
+.brand{
+    background: var(--second-black-color);
+}
+.brand__title{
+    font-family: var(--font-playfair-display);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding-top: 60px;
+}
+.brand__title.pseudo::after{
+    margin-top: 40px;
+}
+.brand__list{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+.brand__item{
+    margin-right: 30px;
+}
+.brand__item:last-child{
+    margin-right: 0;
+}
