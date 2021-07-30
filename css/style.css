@@ -28,6 +28,14 @@ body{
     font-style: normal;
     font-weight: normal;
 }
+input{
+    font-family: var(--basic-font);
+    font-style: normal;
+    font-weight: normal;
+}
+::-webkit-input-placeholder{
+    color: var(--second-white-color);
+}
 .page-header{
     background-color: var(--black-color);
 }
@@ -495,4 +503,87 @@ body{
 }
 .brand__item:last-child{
     margin-right: 0;
+}
+
+/* FOOTER */
+
+.footer{
+    background-image: url(../images/img-3.jpg);
+    height: 400px;
+}
+.footer__flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__title{
+    font-family: var(--font-playfair-display);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: var(--white-color);
+
+    margin-top: 80px;
+}
+.footer__text{
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--white-color);
+
+    margin-top: 40px;
+}
+.footer__list{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 340px;
+
+    margin-top: 40px;
+}
+.footer__item{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.footer__item:last-child{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.footer__item:nth-last-child(2){
+    margin-bottom: 0;
+}
+.footer__buttons{
+    font-family: var(--basic-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--second-white-color);
+    border: transparent;
+    cursor: pointer;
+
+    padding: 10px 20px;
+    background: var(--second-black-color);
+}
+.footer__button{
+    font-family: var(--basic-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: var(--white-color);
+    border: transparent;
+    cursor: pointer;
+
+    padding: 11px 20px;
+    background: var(--second-black-color);
+}
+.footer__input{
+    width: 210px;
+    height: 42px;
+    padding: 0 16px;
+    color: var(--white-color);
+    background: rgba(255, 255, 255, 0.4);
+
+    border: transparent;
+    margin-top: 37px;
 }
