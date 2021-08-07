@@ -527,27 +527,11 @@ input{
     fill: var(--grey-color);
     width: 255px;
 }
-.brand__link--github:hover,
-.brand__link--github:focus{
-    fill: var(--icon-color-github);
+.brand__link:hover,
+.brand__link:focus{
+    fill: var(--white-color);
     transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.brand__link--sass:focus,
-.brand__link--sass:hover{
-    fill: var(--icon-color-sass);
-    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.brand__link--jquery:hover,
-.brand__link--jquery:focus{
-    fill: var(--icon-color-jquery);
-    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.brand__link--vscode:hover,
-.brand__link--vscode:focus{
-    fill: var(--icon-color-vscode);
-    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* FOOTER */
 
 .footer{
