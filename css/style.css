@@ -10,6 +10,11 @@
 --second-white-color: #D0D0D0;
 --basic-font: 'PT Sans', sans-serif;
 --hover-white-color: rgba(255, 255, 255, 0.7);
+--icon-color-git: #de4c36;
+--icon-color-jquery: #6ba0ab;
+--icon-color-sass: #cf649a;
+--icon-color-vscode: #2489ca;
+--icon-color-github: #8617a1;
 }
 * {
     margin: 0;
@@ -361,23 +366,21 @@ input{
     text-align: center;
     color: var(--white-color);
     margin-top: 40px;
+    margin-bottom: 61px;
 }
 .collection-button{
-    font-family: var(--basic-font);
-    font-style: normal;
-    font-weight: normal;
+    display: block;
+    text-align: center;
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--white-color);
-    cursor: pointer;
-    padding: 11px 27px;
-    background-color: transparent;
+
     border: 1px solid var(--white-color);
+    max-width: 310px;
+    padding: 12px 0;
     margin: auto;
-    margin-top: 73px;
-    display: flex;
 }
 
 /* PRODUCT */
@@ -513,6 +516,36 @@ input{
 }
 .brand__item:last-child{
     margin-right: 0;
+}
+.brand__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    fill: var(--grey-color);
+    width: 255px;
+}
+.brand__link--github:hover,
+.brand__link--github:focus{
+    fill: var(--icon-color-github);
+    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.brand__link--sass:focus,
+.brand__link--sass:hover{
+    fill: var(--icon-color-sass);
+    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.brand__link--jquery:hover,
+.brand__link--jquery:focus{
+    fill: var(--icon-color-jquery);
+    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.brand__link--vscode:hover,
+.brand__link--vscode:focus{
+    fill: var(--icon-color-vscode);
+    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* FOOTER */
