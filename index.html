@@ -14,20 +14,27 @@
 <body>
    <header class="page-header">
       <div class="container page-header__container">
-        <ul class="page-header__list">
-          <svg width="13" height="13" class="page-header__svg">
-            <use href="./images/svg/symbol-defs.svg#icon-tel"></use>
-          </svg>
-          <li class="page-header__item">8 (812) 123 45 67</li>
-          <li class="page-header__item">Работаем 7 дней в неделю</li>
-          <li class="page-header__item">9:00 - 18:00</li>
+        <nav class="page-header__nav">
+        <ul class="page-header__list"> 
+          <li class="page__item">
+            <a href="#" class="page__link">
+                <svg width="13" height="13" class="page-header__svg">
+                  <use href="./images/svg/symbol-defs.svg#icon-tel"></use>
+                </svg>
+                8 (812) 123 45 67
+            </a>    
+          </li>
+          
+          <li class="page__item">Работаем 7 дней в неделю</li>
+          <li class="page__item">9:00 - 18:00</li>
         </ul>
-        <ul class="page-header__list">
-          <svg width="16" height="16" class="page-header__svg">
-            <use href="./images/svg/symbol-defs.svg#icon-login"></use>
-          </svg>
+        <ul class="page-header__list"> 
           <li class="page-header__login">
-            <a href="#" class="page-header__link">Войти</a>
+            <a href="#" class="page-header__link">
+              <svg width="16" height="16" class="page-header__svg">
+                <use href="./images/svg/symbol-defs.svg#icon-login"></use>
+              </svg>
+              Войти</a>
           </li>
           <li class="page-header__login">
             <p class="page-header__slash">/</p>
@@ -36,6 +43,7 @@
             <a href="#" class="page-header__link">Регистрация</a>
           </li>
         </ul>
+        </nav>
       </div>
     </header>  
     <header class="page-header-nav">
