@@ -265,8 +265,6 @@ input{
     height: 325px;
     background-color: var(--third-black-color);  
 }
-/* .catalog-link:hover,
-.catalog-link:focus{} */
 .catalog-name{
     font-family: var(--font-playfair-display);
     font-size: 18px;
@@ -299,29 +297,25 @@ input{
     border: 1px solid var(--white-color);
     margin: auto;
     margin-top: 30px;
+
+    margin-bottom: 30px;
 }
 .catalog-img{
     background-image: url(../images/img-1.jpg);
     width: 880px;
 }
 .catalog-button{
-    font-family: var(--basic-font);
-    font-style: normal;
-    font-weight: normal;
+    display: block;
+    text-align: center;
     font-size: 18px;
     line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.01em;
     text-transform: uppercase;
     color: var(--white-color);
-    cursor: pointer;
-    padding: 11px 27px;
     border: 1px solid var(--white-color);
-    background-color: transparent;
-
-    display: flex;
+    padding: 11px 0;
+    max-width: 138px;
     margin: auto;
-    margin-top: 30px;
 }
 .catalog-button:hover,
 .catalog-button:focus{
