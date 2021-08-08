@@ -10,11 +10,6 @@
 --second-white-color: #D0D0D0;
 --basic-font: 'PT Sans', sans-serif;
 --hover-white-color: rgba(255, 255, 255, 0.7);
---icon-color-git: #de4c36;
---icon-color-jquery: #6ba0ab;
---icon-color-sass: #cf649a;
---icon-color-vscode: #2489ca;
---icon-color-github: #8617a1;
 }
 * {
     margin: 0;
@@ -577,7 +572,7 @@ input{
 .footer__item:nth-last-child(2){
     margin-bottom: 0;
 }
-.footer__buttons{
+.footer__link{
     font-family: var(--basic-font);
     font-style: normal;
     font-weight: normal;
@@ -589,8 +584,10 @@ input{
 
     padding: 10px 20px;
     background: var(--second-black-color);
+
+    display: block;
 }
-.footer__button{
+.footer__subscribe{
     font-family: var(--basic-font);
     font-style: normal;
     font-weight: normal;
