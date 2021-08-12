@@ -555,7 +555,7 @@ input{
     margin-top: 40px;
 }
 .footer__list{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     width: 340px;
 
@@ -585,7 +585,7 @@ input{
     padding: 10px 20px;
     background: var(--second-black-color);
 
-    display: block;
+    display: inline-block;
 }
 .footer__subscribe{
     font-family: var(--basic-font);
